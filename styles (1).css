@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+}
+
+/* Skill and Language Icons */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+li i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+/* New Section Styling */
+.clubs-interests, .future-projects {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clubs-interests h2, .future-projects h2 {
+    color: #007BFF;
+}
+
+.clubs-interests p, .future-projects p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Gallery Styling */
+.gallery {
+    margin-top: 40px;
+}
+
+.image-slider {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.image-slider img {
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    transition: transform 1s ease;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hover Effects */
+h2:hover {
+    color: #0056b3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
+
